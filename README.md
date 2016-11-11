@@ -244,6 +244,11 @@ TODO
 
 TODO
 
+
+## Юниты
+
+`null` и `undefined`
+
 ## Примитивные и объектные типы
 
 TODO
@@ -252,4 +257,3 @@ TODO
 
 TODO 
 
-## `null` и `undefined`
