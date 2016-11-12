@@ -186,9 +186,14 @@ if ({}) { ... } // эквивалентно if (true) { ... }
 
 Для всех примитивных типов в JS определены обёрточные классы (упрощение):
 
-```jd
-"foo" ~ new String("foo") ~ String("foo")
-42 ~ new Number(42) ~ String(42)
+```js
+"foo"             // литерал 
+String("foo")     // функция (приведения к типу)
+new String("foo") // инстанциирование
+
+42                // литерал 
+String(42)        // функция (приведения к типу)
+new Number(42)    // инстанциирование
 ...
 ```
 
@@ -203,10 +208,13 @@ if ({}) { ... } // эквивалентно if (true) { ... }
 Использование конструкторов обёрточных классов для П типов настоятельно не рекомендуется:
 
 ```js
-typeof String("foo")      // string
-typeof new String("foo")  // object
-typeof Boolean(false)     // boolean
-typeof new Boolean(false) // object
+typeof "foo"              // 'string' 
+typeof String("foo")      // 'string' 
+typeof new String("foo")  // 'object' (!)
+
+typeof false              // 'boolean'
+typeof Boolean(false)     // 'boolean'
+typeof new Boolean(false) // 'object' (!)
 ```
 
 Использование конструкторов для О типов является каноническим:
