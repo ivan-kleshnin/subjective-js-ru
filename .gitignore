@@ -1,0 +1,9 @@
+# EXCLUDE EXACT
+/node_modules/
+/ignore/
+
+# EXCLUDE BY MASK
+*.iml
+.idea
+.DS_Store
+npm-debug.log
