@@ -120,11 +120,13 @@ NodeJS и NPM в корне изменило ситуацию. Проблем с
 
 #### [2.1 Зарезервированные слова](./content/2.1.keywords.md)
 
-#### [2.2 Переменные](./content/2.2.variables.md)
+#### [2.2 Значения](./content/2.2.values.md)
 
-#### [2.3 Значения](./content/2.3.values.md)
+#### [2.3 Переменные](./content/2.3.variables.md)
 
-#### [2.4 Инструкции](./content/2.4.statements.md)
+#### [2.4 Ссылки](./content/2.5.references.md)
+
+#### [2.5 Инструкции](./content/2.5.statements.md)
 
 ### 3. Система типов
 
