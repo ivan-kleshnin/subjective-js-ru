@@ -136,13 +136,15 @@ NodeJS и NPM в корне изменило ситуацию. Проблем с
 
 #### [3.3 Проверка типов](./content/3.3.type-checking.md)
 
-#### [3.4 Обёрточные типы](./content/3.4.wrapper-classes.md)
+#### [3.4 Коэрция](./content/3.4.type-coercion.md)
 
-#### [3.5 Коэрция типов](./content/3.5.type-coercion.md)
+#### [3.5 Приведение типов](./content/3.5.type-casting.md)
 
-#### [3.6 Сравнение значений](./content/3.6.equality.md)
+#### [3.6 Боксирование](./content/3.6.type-boxing.md)
 
-#### [3.7 Практические правила](./content/3.7.practical-rules.md)
+#### [3.7 Сравнение значений](./content/3.7.equality.md)
+
+#### [3.8 Практические правила](./content/3.8.practical-rules.md)
 
 ### 4. Builtins
 
